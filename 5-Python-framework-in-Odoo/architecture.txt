@@ -1,0 +1,12 @@
+'''
+
+module
+├── models
+│   ├── *.py                  #Business Object
+│   └── __init__.py           #Object views (UI Display)
+├── data                      
+│   └── *.xml                 #configdata/reports/views/demodata/moduleparam/security
+├── __init__.py               #web controllers
+└── __manifest__.py           #static web data
+
+'''

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Todo app</title>
+</head>
+<body>
+  <h1>Todos</h1>
+  <ul>
+    {% for todo in todos%}
+    <li>
+        <input type="checkbox" disabled=True name="done" onchange="this.form.submit()"
+          {%if todo['done'] %}
+             checked 
+          {%endif%} >
+      <span {%if todo['done'] %} style="text-decoration: line-through" {%endif%}>
+        <a href="{{ url_for ('edit', index=loop.index0) }}"> edit</a>
+        <a href="{{ url_for ('delete', index=loop.index0) }}"> delete</a>
+        <a href="{{ url_for ('check', index=loop.index0) }}"> check</a>
+        {{ todo['task']  }}
+    </li>
+    {% endfor%}
+  </ul>
+    <form action="{{ url_for('add') }}" method="post">
+      <input type="text" name="todo">
+      <button type="submit">Add Todo</button>
+    </form>
+</body>
+</html>

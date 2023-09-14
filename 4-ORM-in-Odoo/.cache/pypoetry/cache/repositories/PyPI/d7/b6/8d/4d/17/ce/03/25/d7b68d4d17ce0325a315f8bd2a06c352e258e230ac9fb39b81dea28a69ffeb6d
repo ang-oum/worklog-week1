@@ -1,0 +1,1 @@
+9999999999{"name": "vatnumber", "version": "1.2", "summary": "[UNMAINTAINED] Python module to validate VAT numbers", "requires_dist": ["python-stdnum", "suds ; extra == \"suds\""], "requires_python": null, "files": [{"file": "vatnumber-1.2.tar.gz", "hash": "sha256:4e9e9cabcff6076d8deb8a347edfd5d0ab8cab1ed344fdbe5dd4a6110a2f2c7b"}], "yanked": false, "_cache_version": "2.0.0"}

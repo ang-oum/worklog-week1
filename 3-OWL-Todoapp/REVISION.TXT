@@ -1,0 +1,27 @@
+Setting up the project
+Adding a first component
+Displaying a list of tasks
+Layout: some basic css
+Extracting Task as a subcomponent
+Adding tasks (part 1)
+Adding tasks (part 2)
+Toggling tasks
+Deleting tasks
+Using a store
+Saving tasks in local storage
+Filtering tasks
+The Final Touch
+Final Code
+
+
+# 🦉 Owl overview 🦉
+
+https://github.com/odoo/owl/blob/master/doc/readme.md
+
+# 🦉 How to test Components 🦉
+
+https://github.com/odoo/owl/blob/master/doc/learning/how_to_test.md
+
+# 🦉 How to start an Owl project 🦉
+
+https://github.com/odoo/owl/blob/master/doc/learning/quick_start.md
