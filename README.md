@@ -7,7 +7,7 @@
 _08.09.23 
 
            https://github.com/ang-oum/worklog-week1/blob/main/1-To-do-list-app/main.py
-To do list app using Flask libraryµ
+To do list app using Flask library
 
            https://www.youtube.com/watch?v=W1r8fVLS-gI&pp=ygUWbmV1cmFsbmluZSBmbGFzayB0byBkbw%3D%3D
 
