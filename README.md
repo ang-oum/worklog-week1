@@ -28,6 +28,7 @@ OWL Todo tutorial
            https://github.com/odoo/owl/blob/master/doc/learning/tutorial_todoapp.md
 
 Getting started: Chapter 1 - 4
+
 Understand JS/Python/ORM API framework
        
            https://www.odoo.com/documentation/16.0/nl/developer/tutorials/getting_started/04_basicmodel.html
